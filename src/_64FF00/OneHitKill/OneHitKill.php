@@ -99,17 +99,7 @@ class OneHitKill extends PluginBase
 		return true;
 	}
 	
-	/*
-	
-			#    ######  ### ### 
-		   # #   #     #  #  ### 
-		  #   #  #     #  #  ### 
-		 #     # ######   #   #  
-		 ####### #        #      
-		 #     # #        #  ### 
-		 #     # #       ### ### 
-	 
-	 */    
+	/* <------- API -------> */
 	
 	public function addPlayer(Player $player)
 	{
