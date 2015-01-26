@@ -103,7 +103,7 @@ class OneHitKill extends PluginBase
 	
 	public function addPlayer(Player $player)
 	{
-		$this->players[] = $player->getName();
+		$this->players[$player->getName()] = $player->getName();
 	}
 	
 	public function isAdded(Player $player)
